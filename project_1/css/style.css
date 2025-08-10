@@ -2,4 +2,38 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+/* common css ends */
+.container {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.name-highlight {
+    color: orange;
+}
+
+.half-width {
+    width: 50%;
+    float: left;
+}
+
+.half-width p {
+    font-size: 16px;
+    padding: 25px 0;
+}
+
+.half-width h2 {
+    font-size: 30px;
+    padding-top: 30px;
+}
+
+.half-width img {
+    width: 100%;
 }
