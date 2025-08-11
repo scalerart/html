@@ -14,34 +14,17 @@ ul, li {
     list-style-type: none;
 }
 
-/* common css ends */
-
-/* navigation starts */
-.menu {
-    display: flex;
-    justify-content: space-between;
-}
-
-.menu .menu-item ul {
-    display: flex;
-}
-
-.menu .menu-item ul li {
-    padding-left: 50px;
-}
-
-/* first section */
 section {
     padding-bottom: 150px;
 }
 .container {
     width: 1200px;
     margin: 0 auto;
+    display: flex;    
 }
+/* common css ends */
 
-.container {
-    display: flex;
-}
+/* first section */
 
 .orange-highlight {
     color: orange;
