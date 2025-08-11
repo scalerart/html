@@ -3,62 +3,93 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
-}
 
-.clr {
-    clear: both;
 }
 /* common css ends */
-section {
-    padding-bottom: 100px;
-}
 
+/* first section */
+
+section {
+    padding-bottom: 150px;
+}
 .container {
     width: 1200px;
     margin: 0 auto;
 }
 
-.top-banner {
-    background-image: url(../images/top-banner.png);
+.container {
+    display: flex;
+}
+
+.orange-highlight {
+    color: orange;
+}
+
+.section-bg .container .half-section {
+    width: 45%;
+    margin: 0 5%;
+}
+
+.section-bg .container .half-section h1 {
+    font-size: 50px;
+    line-height: 55px;
+    padding-bottom: 30px;
+}
+
+.section-bg .container .half-section h2 {
+    font-size: 25px;
+    padding-bottom: 25px;
+}
+
+.section-bg .container .half-section p {
+    font-size: 15px;
+    padding-bottom: 25px;
+}
+
+.section-bg .container .half-section a {
+    text-decoration: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: white;
+    background-image: linear-gradient(0deg, orange, rgb(255, 106, 0));
+    border-radius: 5px;
+}
+
+.section-bg .container .half-section img {
+    width: 100%;
+}
+
+.section-bg {
+    background-image: url("../images/top-banner.png");
     background-repeat: no-repeat;
 }
 
-h1 {
-    font-size: 40px;
-    line-height: 50px;
+/* second section */
+.dream-bg {
+    background-image: url("../images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
-.orange-highlight {color: orange;
+/* third section */
+
+.experiance-bg {
+    background-image: url("../images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
 }
 
-.half-width {
-    width: 50%;
-    float: left;
-    padding-left: 50px;
-}
-
-.half-width p {
-    font-size: 16px;
-    padding: 25px 0;
-}
-
-.half-width h2 {
-    font-size: 25px;
-    padding-top: 30px;
-}
-
-.half-width img {
-    width: 100%;
-}
-.link-btn {
-    text-decoration: none;
+.experiance-bg h2 {
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 50px;
     text-transform: uppercase;
-    font-weight: 700;
-    font-size: 18px;
-    color: white;
-    padding: 10px 20px;
-    background-image: linear-gradient(#FFA032, #FFCB1B);
-    border: none;
+}
+
+.experiance-bg .half-section {
+    padding: 20px;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.5);
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -66,45 +97,11 @@ h1 {
     -o-border-radius: 5px;
 }
 
-/* part two */
-.dream {
-    background-image: url("../images/dream-bg.png");
-    background-repeat: no-repeat;
-    background-position: right;
+.experiance-bg .half-section h2 {
+    font-size: 30px;
 }
 
-/* part three */
-.experiance {
-    background-image: url("../images/exp-bg.png");
-    background-repeat: no-repeat;
-    background-position: left;
-    z-index: 999;
-}
-
-.experiance .container h1 {
-    text-align: center;
-    padding-bottom: 50px;
-    
-}
-.experiance-area {
-    width: 45%;
-    height: 40%;
-    margin-left: 30px;
-    box-shadow: 0px 10px 20px 0 rgba(0, 0, 0, 0.5);
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-}
-#full-stake {
-    border-left: 8px solid;
-    border-image: linear-gradient(#FFA032, #FFCB1B);
-    border-image-slice: 1;
-}
-
-#devloper {
-    border-left: 8px solid;
-    border-image: linear-gradient(blue, cyan);
-    border-image-slice: 1;
+.experiance-bg .half-section h5 {
+    font-size: 20px;
+    padding-bottom: 15px;
 }
