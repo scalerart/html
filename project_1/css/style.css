@@ -5,10 +5,32 @@
     font-family: "Poppins", sans-serif;
 
 }
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul, li {
+    list-style-type: none;
+}
+
 /* common css ends */
 
-/* first section */
+/* navigation starts */
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
 
+.menu .menu-item ul {
+    display: flex;
+}
+
+.menu .menu-item ul li {
+    padding-left: 50px;
+}
+
+/* first section */
 section {
     padding-bottom: 150px;
 }
