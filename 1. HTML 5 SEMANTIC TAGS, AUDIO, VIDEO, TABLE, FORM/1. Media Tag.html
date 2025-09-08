@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Tags</title>
+</head>
+<body>
+    <h1>HTML Media Tags</h1>
+    <div class="sound">
+        <audio controls src="1. HTML 5 SEMANTIC TAGS, AUDIO, VIDEO, TABLE, FORM/surah Al-Ikhlas.mp3"></audio>
+    </div>
+
+    <div class="bird-video">
+        <video controls src=""></video>
+    </div>
+
+    <div class="youtube-video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/r5QmijRdusc?si=0oooS1GvcXlIxJ9D" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+</body>
+</html>
+<!--
+🔹  HTML Media Tags
+    HTML-এ Media Tags বলতে আমরা এমন ট্যাগগুলো বুঝি যেগুলো ওয়েবপেজে অডিও, ভিডিও, ছবি, গ্রাফিক্স বা বাইরের মিডিয়া কনটেন্ট প্রদর্শনের জন্য ব্যবহার করা হয়।
+
+🔹  HTML Media Tags
+1.  <img>
+    👉 ছবি (Image) ওয়েবপেজে দেখানোর জন্য ব্যবহৃত হয়।
+    <img src="image.jpg" alt="Beautiful view" width="400" height="300">
+
+2.  <audio>
+    👉 ওয়েবপেজে অডিও (সংগীত/ভয়েস) প্লে করার জন্য।
+    <audio controls>
+        <source src="song.mp3" type="audio/mpeg">
+    </audio>
+
+3.  <video>
+    👉 ওয়েবপেজে ভিডিও প্লে করার জন্য।
+    <video width="500" controls>
+      <source src="movie.mp4" type="video/mp4">
+    </video>
+
+4.  <source>
+    👉 <audio> বা <video> ট্যাগের মধ্যে একাধিক ফাইল ফরম্যাট যুক্ত করার জন্য ব্যবহৃত হয়।
+    <video controls>
+      <source src="movie.mp4" type="video/mp4">
+      <source src="movie.ogg" type="video/ogg">
+    </video>
+
+5.  <track>
+    👉 ভিডিও বা অডিওতে সাবটাইটেল বা ক্যাপশন যোগ করার জন্য।
+    <video controls>
+      <source src="movie.mp4" type="video/mp4">
+      <track src="subtitles.vtt" kind="subtitles" srclang="en" label="English">
+    </video>
+
+6.  <iframe>
+    👉 অন্য ওয়েবসাইটের কনটেন্ট এম্বেড করার জন্য। যেমন YouTube ভিডিও।
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/abcd1234"></iframe>
+
+7.  <object>
+    👉 ওয়েবপেজে অন্য কোনো ফাইল (যেমন PDF, Flash, Multimedia) এম্বেড করার জন্য।
+    <object data="file.pdf" type="application/pdf" width="600" height="400"></object>
+
+8.  <embed>
+    👉 বাইরের মিডিয়া বা প্লাগইন (যেমন Flash, PDF, Video) যুক্ত করার জন্য।
+    <embed src="file.pdf" width="600" height="400">
+
+✅  উপসংহার
+    HTML-এর মূল Media Tags হলো:
+    <img>, <audio>, <video>, <source>, <track>, <iframe>, <object>, <embed>।        
+-->
